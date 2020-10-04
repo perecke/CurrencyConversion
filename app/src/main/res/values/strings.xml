@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Currency Conversion</string>
+    <string name="api_key">6bbd2cc7c9b36d4ab0fa52ef763860ab</string>
+
+    <string name="format_for_dialog">%s (%s)</string>
+    <string name="insert_amount">Insert the amount:</string>
+
+    <!-- Alert strings -->
+    <string name="unexpected_error">Unexpected error</string>
+    <string name="unexpected_error_message">Error happened, check your internet connection</string>
+
+    <string name="missing_data_error">Not enough data</string>
+    <string name="missing_data_error_message">You forgot to insert the amount you want to convert</string>
+
+    <string name="select_currency">Select a currency</string>
+
+    <string name="alert_ok_btn">OK</string>
+
+    <!-- Preferences data -->
+    <string name="preference_name">currencyPref</string>
+    <string name="date_preference">update_time</string>
+
+</resources>

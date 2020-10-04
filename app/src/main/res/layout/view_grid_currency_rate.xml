@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_dark"
+    android:layout_marginStart="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/currency_rate_name"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        tools:ignore="SpUsage"
+        tools:text="USD"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/currency_rate_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        tools:text="1000"/>
+
+</LinearLayout>
